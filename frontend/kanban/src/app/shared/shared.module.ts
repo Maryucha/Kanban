@@ -14,7 +14,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     DragDropModule
   ],
   exports: [
-    ErrorComponent
+    ErrorComponent,
+    DragDropModule
   ]
 })
 export class SharedModule { }
