@@ -21,6 +21,6 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Screenshots of the application - (for assets embedding demo)
 
-| Home page                             | About page                             |
+| Board                           | Drag-in-Drop Action                            |
 | ------------------------------------- | -------------------------------------- |
 | ![Screenshot-1](./frontend/kanban/screenshots/home.png) | ![Screenshot-2](./frontend/kanban/screenshots/edit.png) |
