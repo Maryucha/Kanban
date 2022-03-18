@@ -1,14 +1,38 @@
 {
-  "tarefas": [
+  "todo": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "UXA"
+      "text": "json-server",
+      "status": "UXA"
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "ANA"
+      "text": "json-server",
+      "status": "UXA"
+    }
+  ],
+  "doing": [
+    {
+      "id": 1,
+      "text": "json-server",
+      "status": "UXA"
+    },
+    {
+      "id": 2,
+      "text": "json-server",
+      "status": "UXA"
+    }
+  ],
+  "done": [
+    {
+      "id": 1,
+      "text": "json-server",
+      "status": "UXA"
+    },
+    {
+      "id": 2,
+      "text": "json-server",
+      "status": "UXA"
     }
   ]
 }

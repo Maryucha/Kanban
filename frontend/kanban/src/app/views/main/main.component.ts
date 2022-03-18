@@ -13,9 +13,9 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  todo = ['todo1', 'todo2', 'todo3'];
-  doing = ['doing1', 'doing2', 'doing3'];
-  done = ['done1', 'done2', 'done3'];
+  todo = ['todo1', 'todo2', 'todo3', 'todo4'];
+  doing = ['doing1', 'doing2', 'doing3', 'doing4', 'doing5', 'doing6', 'doing7'];
+  done = ['done1', 'done2', 'done3', 'done4', 'done5', 'done6'];
 
   drop(event: CdkDragDrop<string[]>) {
     if (event.previousContainer === event.container) {

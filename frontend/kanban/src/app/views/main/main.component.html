@@ -13,10 +13,14 @@
         </div>
 
         <div class="board-wrapper">
-            <div class="board-columns">
+            <div class="board-columns" cdkDropListGroup>
 
-                <div class="board-column" cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo"
-                    [cdkDropListConnectedTo]="[doneList, doingList]" (cdkDropListDropped)="drop($event)">
+                <div class="board-column" 
+                
+                cdkDropList
+                #todoList="cdkDropList" 
+                [cdkDropListData]="todo"
+                (cdkDropListDropped)="drop($event)">
 
                     <div class="column-title">
                         TODO
@@ -30,8 +34,10 @@
                 </div>
 
 
-                <div class="board-column" cdkDropList #doingList="cdkDropList" [cdkDropListData]="doing"
-                    [cdkDropListConnectedTo]="[todoList, doneList]" (cdkDropListDropped)="drop($event)">
+                <div class="board-column" 
+                cdkDropList #doingList="cdkDropList" 
+                [cdkDropListData]="doing"
+                    (cdkDropListDropped)="drop($event)">
                     <div class="column-title">
                         DOING
                     </div>
@@ -43,8 +49,11 @@
                     </div>
                 </div>
 
-                <div class="board-column" cdkDropList #doneList="cdkDropList" [cdkDropListData]="done"
-                    [cdkDropListConnectedTo]="[todoList, doingList]" (cdkDropListDropped)="drop($event)">
+                <div class="board-column" 
+                cdkDropList 
+                #doneList="cdkDropList" 
+                [cdkDropListData]="done"
+                   (cdkDropListDropped)="drop($event)">
 
                     <div class="column-title">
                         DONE
