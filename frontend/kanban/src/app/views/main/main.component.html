@@ -9,55 +9,28 @@
 
     <div class="board">
         <div class="board-bar">
-            <p class="board-name">Board Name</p>
+            <p class="board-name">{{board.name}}</p>
         </div>
 
         <div class="board-wrapper">
-            <div class="board-columns">
+            <div class="board-columns" cdkDropListGroup>
 
-                <div class="board-column" cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo"
-                    [cdkDropListConnectedTo]="[doneList, doingList]" (cdkDropListDropped)="drop($event)">
+                <div class="board-column" *ngFor="let column of board.columns">
 
                     <div class="column-title">
-                        TODO
+                        {{column.name}}
                     </div>
 
-                    <div class="tasks-container" *ngFor="let task of todo" cdkDrag>
-                        <div class="task">
+                    <div class="tasks-container" 
+                    cdkDropList 
+                    [cdkDropListData]="column.tasks"
+                        (cdkDropListDropped)="drop($event)">
+                        <div class="task" *ngFor="let task of column.tasks" cdkDrag>
                             {{task}}
                         </div>
                     </div>
                 </div>
-
-
-                <div class="board-column" cdkDropList #doingList="cdkDropList" [cdkDropListData]="doing"
-                    [cdkDropListConnectedTo]="[todoList, doneList]" (cdkDropListDropped)="drop($event)">
-                    <div class="column-title">
-                        DOING
-                    </div>
-
-                    <div class="tasks-container" *ngFor="let task of doing" cdkDrag>
-                        <div class="task">
-                            {{task}}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="board-column" cdkDropList #doneList="cdkDropList" [cdkDropListData]="done"
-                    [cdkDropListConnectedTo]="[todoList, doingList]" (cdkDropListDropped)="drop($event)">
-
-                    <div class="column-title">
-                        DONE
-                    </div>
-                    <div class="tasks-container" *ngFor="let task of done" cdkDrag>
-                        <div class="task">
-                            {{task}}
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
-
     </div>
 </div>

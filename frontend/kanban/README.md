@@ -23,4 +23,4 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 | Home page                             | About page                             |
 | ------------------------------------- | -------------------------------------- |
-| ![Screenshot-1](./frontend/kanban/screenshots/home.png) | ![Screenshot-2](./frontend/kanban/screenshots/edit.png) |
+| ![Screenshot-1](screenshots/home.png) | ![Screenshot-2](screenshots/edit.png) |

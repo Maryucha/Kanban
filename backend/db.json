@@ -1,14 +1,48 @@
 {
-  "tarefas": [
+  "board": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "UXA"
-    },
-    {
-      "id": 2,
-      "title": "json-server",
-      "author": "ANA"
+      "name": "CASA",
+      "columns": [
+        {
+          "name": "TODO",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        },
+        {
+          "name": "DOING",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        },
+        {
+          "name": "DONE",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        }
+      ]
     }
   ]
 }
