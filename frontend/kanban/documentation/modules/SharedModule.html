@@ -163,6 +163,7 @@
         <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { NgModule } from &#x27;@angular/core&#x27;;
 import { CommonModule } from &#x27;@angular/common&#x27;;
 import { ErrorComponent } from &#x27;./error/error.component&#x27;;
+import { DragDropModule } from &#x27;@angular/cdk/drag-drop&#x27;;
 
 
 
@@ -171,10 +172,12 @@ import { ErrorComponent } from &#x27;./error/error.component&#x27;;
     ErrorComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DragDropModule
   ],
   exports: [
-    ErrorComponent
+    ErrorComponent,
+    DragDropModule
   ]
 })
 export class SharedModule { }
