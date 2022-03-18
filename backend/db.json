@@ -1,38 +1,48 @@
 {
-  "todo": [
+  "board": [
     {
-      "id": 1,
-      "text": "json-server",
-      "status": "UXA"
-    },
-    {
-      "id": 2,
-      "text": "json-server",
-      "status": "UXA"
-    }
-  ],
-  "doing": [
-    {
-      "id": 1,
-      "text": "json-server",
-      "status": "UXA"
-    },
-    {
-      "id": 2,
-      "text": "json-server",
-      "status": "UXA"
-    }
-  ],
-  "done": [
-    {
-      "id": 1,
-      "text": "json-server",
-      "status": "UXA"
-    },
-    {
-      "id": 2,
-      "text": "json-server",
-      "status": "UXA"
+      "name": "CASA",
+      "columns": [
+        {
+          "name": "TODO",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        },
+        {
+          "name": "DOING",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        },
+        {
+          "name": "DONE",
+          "tasks": [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+          ]
+        }
+      ]
     }
   ]
 }
