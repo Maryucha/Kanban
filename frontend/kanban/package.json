@@ -2,12 +2,11 @@
   "name": "kanban",
   "author": "Maryucha .M Mariani",
   "description": "",
-  "licenses": "MIT",
   "url" : "https://github.com/Maryucha/Kanban",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",

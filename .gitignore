@@ -1,3 +1,11 @@
+# compiled output
+/dist
+/tmp
+/out-tsc
+/documentation
+# Only exists if Bazel was run
+/bazel-out
+
 # Logs
 logs
 *.log
@@ -102,3 +110,37 @@ dist
 
 # TernJS port file
 .tern-port
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# dependencies
+/node_modules
