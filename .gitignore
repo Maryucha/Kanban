@@ -5,6 +5,8 @@
 /documentation
 # Only exists if Bazel was run
 /bazel-out
+/.vscode
+/.angular
 
 # Logs
 logs
