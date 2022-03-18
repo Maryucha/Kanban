@@ -1,8 +1,9 @@
 {
   "name": "kanban",
   "author": "Maryucha .M Mariani",
-  "description": "",
-  "url" : "https://github.com/Maryucha/Kanban",
+  "description": "This aplicattion is a exemple a kanban",
+  "license": "MIT",
+  "repository" : "https://github.com/Maryucha/Kanban",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

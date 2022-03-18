@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ErrorComponent } from './error/error.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 
@@ -9,7 +10,8 @@ import { ErrorComponent } from './error/error.component';
     ErrorComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    DragDropModule
   ],
   exports: [
     ErrorComponent
