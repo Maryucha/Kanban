@@ -1,5 +1,5 @@
 # Kaban
-This repository is a exemple a Kaban square  in Angular 13
+This repository is a exemple a Kanban square  in Angular 13
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli).
 
